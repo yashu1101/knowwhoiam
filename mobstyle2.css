@@ -1,0 +1,372 @@
+@media only screen and ((min-width: 500px) and (max-width: 680px)) {
+
+
+    .mobabt {
+        height: 730px;
+    }
+
+    .sec-title {
+        font-size: 29px;
+    }
+
+    .main {
+        /* border: 1px solid black; */
+        background-color: #000000ab;
+        width: 90%;
+
+        /* box-shadow: 1px 1px 30px #858d8f; */
+    }
+
+    .myheader {
+        border: 1px solid rgba(0, 0, 0, 0);
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        position: sticky;
+        left: 0;
+        top: 0;
+        height: 40px;
+        background-color: #00000052;
+    }
+
+    #navicon {
+        width: 25px;
+        height: 25px;
+        border-radius: 29px;
+        margin: 0px 0px;
+        padding: 0 4px;
+    }
+
+
+    #h3sec {
+        display: none;
+        color: aqua;
+        font-family: 'Edu SA Beginner', cursive;
+        font-size: 21px;
+        margin: 7px -8px;
+        padding: 0px 22px;
+    }
+
+    .abtsec {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .gridsec {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        padding: 62px;
+        box-sizing: border-box;
+        align-items: center;
+        grid-template-columns: 35px 35px 35px;
+        grid-column-gap: 80px;
+        grid-row-gap: 80px;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .listsec {
+        display: flex;
+        margin: 0 45px;
+        padding: 0px;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .ptitle {
+        color: aqua;
+        font-size: 33px;
+        margin-left: -8px;
+    }
+
+    .ptitle:hover {
+        font-size: 35px;
+        /* background: -webkit-linear-gradient(#eee, #333); */
+        background-image: url(https://media.istockphoto.com/id/1026457310/photo/desktop-source-code-and-wallpaper-by-computer-language-with-coding-and-programming.jpg?s=1024x1024&w=is&k=20&c=YNI54g3fULQ41eCE7J6YI7b4BRNcqdou7W7dk-UB16M=);
+        transition: all 0.3s;
+    }
+
+    .infosec {
+        display: flex;
+        text-align: center;
+        margin: -41px -24px;
+        padding: 36px 17px;
+        height: 254px;
+        font-family: 'Edu SA Beginner', cursive;
+        color: white;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* border: 2px solid black; */
+        align-items: center;
+        width: 46%;
+        justify-items: center;
+    }
+
+    #mypic {
+        display: flex;
+        /* filter: brightness(0.5); */
+        width: 180px;
+        margin: 38px 35px 12px;
+        box-sizing: border-box;
+        /* border: 1px solid green; */
+        border-radius: 212px;
+        padding: 10px 10px;
+        height: 180px;
+    }
+
+    .introsec {
+
+
+        font-size: 16px;
+        padding: 0px 0px;
+        margin: 0px -84px;
+        /* font-style: italic; */
+        font-stretch: condensed;
+        font-family: Arial;
+
+
+    }
+
+    .signature {
+        font-size: 16px;
+        font-family: 'Cedarville Cursive', cursive;
+        /* font-family: 'Dancing Script', cursive; */
+        margin: 102px 15px 24px;
+        color: rgb(255, 255, 255);
+    }
+
+    #h3sec {
+        color: aqua;
+        font-family: 'Edu SA Beginner', cursive;
+        font-size: 21px;
+        margin: 7px 1px;
+        padding: 0px 22px;
+    }
+
+    .firstproject {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .secondproject {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+
+    }
+
+    .pimg {
+        width: 100px;
+        height: 100px;
+        border: 1px solid azure;
+        margin: 21px 12px 12px;
+        padding: 1px 1px;
+        border-radius: 175px;
+    }
+
+    .con-title {
+        /* margin: 0px; */
+        font-size: 47px;
+        /* padding: 0px; */
+        /* box-sizing: border-box; */
+        /* color: #17a4ffde; */
+        /* font-family: 'Edu SA Beginner', cursive; */
+    }
+
+    #con-title-2 {
+        position: relative;
+        left: 56px;
+        margin: 0px;
+        font-size: 47px;
+        padding: 0px;
+        box-sizing: border-box;
+        color: aqua;
+        font-family: 'Edu SA Beginner', cursive;
+    }
+
+    .con-icon {
+
+        margin: 0 0px 0 39px;
+
+    }
+
+    .conele {
+        width: 13%;
+        padding: 8px 1px;
+        margin: 0 3px;
+        height: 70%;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .sec-title {
+        font-size: 27px;
+    }
+
+    .listsec {
+        display: flex;
+        margin: auto;
+        padding: 0px;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    #about {
+        display: none;
+        flex-direction: column;
+        height: 687px;
+    }
+
+    .main {
+        /* border: 1px solid black; */
+        background-color: #000000b5;
+        width: 94%;
+        /* height: 574px; */
+        margin: 9px auto;
+        overflow-x: hidden;
+        /* box-shadow: 1px 1px 30px #858d8f; */
+    }
+
+    .abtsec {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #h3sec {
+        display: none;
+    }
+
+    #mypic {
+        margin: 25px 35px 12px;
+    }
+
+    .infosec {
+        display: flex;
+        text-align: center;
+        margin: -37px -24px;
+        padding: 36px 17px;
+        height: 254px;
+        font-family: 'Edu SA Beginner', cursive;
+        color: white;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* border: 2px solid black; */
+        align-items: center;
+        width: 46%;
+        justify-items: center;
+    }
+
+    .introsec {
+        font-size: 15px;
+        padding: 0px 27px;
+        margin: 2px -100px;
+        /* font-style: italic; */
+        font-stretch: condensed;
+        font-family: Arial;
+    }
+
+    .signature {
+        font-size: 16px;
+        font-family: 'Cedarville Cursive', cursive;
+        /* font-family: 'Dancing Script', cursive; */
+        margin: 93px 0px 12px 10px;
+        color: rgb(255, 255, 255);
+    }
+
+    .gridsec {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        padding: 62px;
+        box-sizing: border-box;
+        align-items: center;
+        grid-template-columns: 30px 30px 30px;
+        grid-column-gap: 67px;
+        grid-row-gap: 48px;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .skilicon {
+        width: 50px;
+        padding: 15px;
+        background-color: aliceblue;
+        height: 50px;
+        /* border: 1px solid red; */
+        border-radius: -7px;
+        transition: all 0.3s;
+    }
+
+    .ptitle {
+        color: aqua;
+        font-size: 25px;
+        margin-left: -8px;
+    }
+
+    .ptitle:hover {
+        font-size: 27px;
+        /* background: -webkit-linear-gradient(#eee, #333); */
+        /* background-image: url(https://media.istockphoto.com/id/1026457310/photo/desktop-source-code-and-wallpaper-by-computer-language-with-coding-and-programming.jpg?s=1024x1024&w=is&k=20&c=YNI54g3fULQ41eCE7J6YI7b4BRNcqdou7W7dk-UB16M=); */
+        transition: all 0.3s;
+    }
+
+    .conele {
+        width: 45px;
+        padding: 4px;
+        height: 45px;
+    }
+
+    .resumesec {
+        display: flex;
+        margin: 52px -9px;
+    }
+
+    .resumeele {
+        color: white;
+        font-size: 12px;
+        font-weight: 400;
+        margin: 0 13px;
+        background-image: linear-gradient(45deg, #f79fe4, #9058ff);
+        text-decoration: none;
+        /* border: 1px solid gray; */
+        padding: 10px 13px;
+        transition: all 0.3s;
+    }
+
+    #con-title-2 {
+        position: relative;
+        left: 34px;
+        margin: 0px;
+        font-size: 40px;
+        padding: 0px;
+        box-sizing: border-box;
+        color: aqua;
+        font-family: 'Edu SA Beginner', cursive;
+    }
+    .con-title {
+        font-size: 40px;
+        box-sizing: border-box;
+        color: rgba(23, 164, 255, 0.87);
+        font-family: "Edu SA Beginner", cursive;
+        margin: 0px;
+        padding: 0px;
+    }
+}

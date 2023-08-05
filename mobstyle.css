@@ -1,0 +1,271 @@
+@media only screen and ((min-width:880px) and (max-width: 1080px)) {
+    .ptitle {
+        color: aqua;
+        font-size: 43px;
+        margin-left: -8px;
+    }
+
+}
+
+@media only screen and ((min-width:721px) and (max-width: 880px)) {
+   
+
+    #navicon {
+        width: 25px;
+        height: 25px;
+        border-radius: 29px;
+        margin: 0px 0px;
+        padding: 0 4px;
+    }
+    #mypic {
+        display: flex;
+        /* filter: brightness(0.5); */
+        width: 210px;
+        /* border: 1px solid green; */
+        border-radius: 212px;
+        padding: 70px;
+        margin: 0 14px 0 -29px;
+        height: 210px;
+        /* transition: all 2s; */
+    }
+
+    .signature {
+        font-size: 27px;
+        font-family: 'Cedarville Cursive', cursive;
+        /* font-family: 'Dancing Script', cursive; */
+        margin: -23px 41px;
+        color: rgb(255, 255, 255);
+    }
+
+    .gridsec {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        padding: 62px;
+        box-sizing: border-box;
+        align-items: center;
+        grid-template-columns: 121px 121px 121px;
+        grid-column-gap: 80px;
+        grid-row-gap: 80px;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .listsec {
+        display: flex;
+        margin: 0 42px;
+        padding: 0px;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .ptitle {
+        color: aqua;
+        font-size: 43px;
+        margin-left: -8px;
+    }
+
+    .infosec {
+        display: flex;
+        text-align: center;
+        margin: 0px -48px 0 -74px;
+        padding: 36px 17px;
+        height: 254px;
+        font-family: 'Edu SA Beginner', cursive;
+        color: white;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* border: 2px solid black; */
+        align-items: center;
+        width: 46%;
+        justify-items: center;
+    }
+
+    .introsec {
+
+        font-size: 16px;
+        /* font-style: italic; */
+        padding: 0 0px;
+        margin: 12px -12px;
+        font-stretch: condensed;
+        font-family: Arial;
+
+    }
+
+    #h3sec {
+        color: aqua;
+        display: flex;
+        font-family: 'Edu SA Beginner', cursive;
+        font-size: 21px;
+        margin: 7px 1px;
+        padding: 0px 22px;
+    }
+}
+.con-title {
+    font-size: 55px;
+    box-sizing: border-box;
+    color: rgba(23, 164, 255, 0.87);
+    font-family: "Edu SA Beginner", cursive;
+    margin: 0px;
+    padding: 0px;
+}
+
+#con-title-2 {
+    position: relative;
+    left: 118px;
+    margin: 0px;
+    font-size: 55px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: aqua;
+    font-family: 'Edu SA Beginner', cursive;
+}
+
+@media only screen and ( max-width: 720px) {
+   
+
+    #navicon {
+        width: 25px;
+        height: 25px;
+        border-radius: 29px;
+        margin: 0px 0px;
+        padding: 0 4px;
+    }
+
+
+    #h3sec {
+        display: flex;
+        color: aqua;
+        font-family: 'Edu SA Beginner', cursive;
+        font-size: 21px;
+        margin: 7px -8px;
+        padding: 0px 22px;
+    }
+
+    .gridsec {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        padding: 62px;
+        box-sizing: border-box;
+        align-items: center;
+        grid-template-columns: 121px 121px 121px;
+        grid-column-gap: 80px;
+        grid-row-gap: 80px;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .listsec {
+        display: flex;
+        margin: 0 45px;
+        padding: 0px;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .ptitle {
+        color: aqua;
+        font-size: 33px;
+        margin-left: -8px;
+    }
+
+    .infosec {
+        display: flex;
+        text-align: center;
+        margin: -10px -24px;
+        padding: 36px 17px;
+        height: 254px;
+        font-family: 'Edu SA Beginner', cursive;
+        color: white;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* border: 2px solid black; */
+        align-items: center;
+        width: 46%;
+        justify-items: center;
+    }
+
+    #mypic {
+        display: flex;
+        /* filter: brightness(0.5); */
+        width: 210px;
+        margin: 87px 35px;
+        box-sizing: border-box;
+        /* border: 1px solid green; */
+        border-radius: 212px;
+        padding: 10px 10px;
+        height: 210px;
+    }
+
+    .introsec {
+
+
+        font-size: 16px;
+        padding: 2px 20px;
+        margin: 25px -35px;
+        /* font-style: italic; */
+        font-stretch: condensed;
+        font-family: Arial;
+
+
+    }
+
+    .signature {
+        font-size: 25px;
+        font-family: 'Cedarville Cursive', cursive;
+        /* font-family: 'Dancing Script', cursive; */
+        margin: -60px 39px;
+        color: rgb(255, 255, 255);
+    }
+
+    #h3sec {
+        color: aqua;
+        font-family: 'Edu SA Beginner', cursive;
+        font-size: 21px;
+        margin: 7px -8px;
+        padding: 0px 22px;
+    }
+    .firstproject {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .secondproject {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+
+    }
+    .pimg {
+        width: 100px;
+        height: 100px;
+        border: 1px solid azure;
+        margin: 21px 12px 12px;
+        padding: 1px 1px;
+        border-radius: 175px;
+    }
+
+    .con-title{
+        /* margin: 0px; */
+    font-size: 46px;
+    /* padding: 0px; */
+    /* box-sizing: border-box; */
+    /* color: #17a4ffde; */
+    /* font-family: 'Edu SA Beginner', cursive; */
+    }
+    #con-title-2 {
+        position: relative;
+        left: 94px;
+        margin: 0px;
+        font-size: 46px;
+        padding: 0px;
+        box-sizing: border-box;
+        color: aqua;
+        font-family: 'Edu SA Beginner', cursive;
+    }
+}
