@@ -239,7 +239,11 @@
 
     .navbar {
         height: 100vh;
+        background-color: #000000f4;
+        background-image: none;
     }
+
+
 
       .navbar li {
         color: white;
@@ -251,12 +255,20 @@
     }
 
      .navbar li a {
-        color: white;
-        font-size: .9rem;
+        color: rgb(187, 187, 187);
+        font-size: 1.5rem;
         text-decoration: none;
-        font-weight: 600;
+        font-weight: 300;
         position: relative
     }
+
+
+     .navbar li a.active {
+     color: white;
+     font-weight: 500;
+     /* text-shadow: 1px 1px 9px #131313a1; */
+     /* border-bottom: 2px solid ; */
+ }
 
      .social-icon {
         display: flex;

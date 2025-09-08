@@ -381,8 +381,9 @@
      justify-content: center;
      align-items: center;
      height: 65px;
-     background-color: #9737ff;
+
      background-color: #d447ff;
+     /* background-color: #000000f4; */
      background-image: url("images/hero-section-bg-img.jpg");
      background-repeat: no-repeat;
      background-size: cover;
@@ -431,8 +432,9 @@
 
  .navbar li a.active {
      color: white;
-     font-weight: 800;
-     text-shadow: 1px 1px 9px #131313a1;
+     font-weight: 600;
+     /* text-shadow: 1px 1px 9px #131313a1; */
+     /* border-bottom: 2px solid ; */
  }
 
 

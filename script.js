@@ -159,9 +159,9 @@ var wordflick = function () {
   }, speed);
 };
 
-$(document).ready(function () {
-  wordflick();
-});
+// $(document).ready(function () {
+//   wordflick();
+// });
 
 
 
